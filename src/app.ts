@@ -9,7 +9,7 @@ const port = 3000;
 
 // Configure CORS to allow requests from only http://localhost:5173
 const corsOptions = {
-    origin: 'http://localhost:5173',
+    origin: ['http://localhost:5173', 'https://web-scraper-ui-react-vite-ts-bootstra.netlify.app'],
     optionsSuccessStatus: 200
 };
 
